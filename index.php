@@ -25,20 +25,17 @@ echo "<script>";
 ?>
     <form action="./link.php" method="get">
         <input name="query" type="hidden"  value="SELECT * from `sales` where 1">
-        <button type="submit">uzkrauti duomenis</button>
+        <button type="submit">atnaujinti duomenis</button>
     </form>
     <br>
     <br>
     <form action="./link.php" method="get">
     <textarea id="w3review" name="query" rows="10" cols="50"  ></textarea>
-        <button type="submit">siusti uzklausa</button>
+        <button type="submit">siųsti užklausą</button>
     </form>
     
+    <script src = "/.render.js"> </script>
 
-
-    <script>
-        console.log(data);
-    </script>
-</body>
+    </body>
 
 </html>
